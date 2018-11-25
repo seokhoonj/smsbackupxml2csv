@@ -33,7 +33,7 @@ btn2 = Button(root, text="convert", borderwidth=2, width=5)
 btn2.grid(row=0, column=3)
 
 def click2(event):
-    # tree = parse("C:\\Users\\seokhoonj\\Desktop\\sms-20171221155428.xml")
+    # tree = parse("path")
     mypath = txt.get()
     tree = parse(mypath)
     notes = tree.findall('sms')
